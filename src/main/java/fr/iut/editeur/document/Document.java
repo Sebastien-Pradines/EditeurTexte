@@ -38,7 +38,15 @@ public class Document {
         this.texte = leftPart + updatedPart.toUpperCase() + rightPart;
     }
 
+
     public void clear() {
         this.texte = "a";
+    }
+
+    public void effacer(int start, int end) {
+        String leftPart = this.texte.substring(0, start);
+        String rightPart = this.texte.substring(end);
+        this.texte = leftPart + rightPart;
+
     }
 }
