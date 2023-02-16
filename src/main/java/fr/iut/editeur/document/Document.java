@@ -37,4 +37,8 @@ public class Document {
         String updatedPart = this.texte.substring(start,end);
         this.texte = leftPart + updatedPart.toUpperCase() + rightPart;
     }
+
+    public void clear() {
+        this.texte = "a";
+    }
 }
