@@ -43,6 +43,7 @@ public class Document {
         this.texte = "";
     }
 
+
     public void effacer(int start, int end) {
         String leftPart = this.texte.substring(0, start);
         String rightPart = this.texte.substring(end);
