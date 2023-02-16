@@ -40,7 +40,7 @@ public class Document {
 
 
     public void clear() {
-        this.texte = "a";
+        this.texte = "";
     }
 
     public void effacer(int start, int end) {
